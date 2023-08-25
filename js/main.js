@@ -1,5 +1,5 @@
 // wow.js
-// new WOW().init();
+new WOW().init();
 
 // wow = new WOW(
 //   {
