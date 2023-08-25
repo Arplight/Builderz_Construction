@@ -3,11 +3,11 @@
 
 wow = new WOW(
   {
-    boxClass:     'wow',      // default
-    animateClass: 'animated', // default
-    offset:       0,          // default
+    boxClass:     'wow',      
+    animateClass: 'animated', 
+    offset:       0,          
     mobile:       false,       
-    live:         true        // default
+    live:         true        
   }
 )
 wow.init();
