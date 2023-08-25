@@ -1,5 +1,16 @@
 // wow.js
-new WOW().init();
+// new WOW().init();
+
+wow = new WOW(
+  {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       false,       
+    live:         true        // default
+  }
+)
+wow.init();
 
 // Sticky navbar state
 const x = document.getElementById("nav-scroll");
